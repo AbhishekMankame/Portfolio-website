@@ -1,0 +1,8 @@
+While installing the tailwindcss V4, we used the command: npm install -D tailwindcss@latest which worked fine.
+However, when we tried to use npx tailwindcss init, it resulted in an error. The error message was:
+Error: npm error could not determine executable to run.
+npm error A complete log of this run can be found in: /path/to/npm/log
+
+Now to fix the issue type the command
+npm i -D tailwindcss@3 postcss autoprefixer
+So basically we are downloading the version 3 which is the older version of tailwindcss.
