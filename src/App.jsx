@@ -4,7 +4,11 @@ const app = () => {
     return (
         <main className="bg-slate-300/20">
             <Router>
-                <Navigate></Navigate>
+                Navbar
+                <Routes>
+                    <Route path="/" element={'Home'} />
+                    <Route path="/about" element={'About'} />
+                </Routes>
 
             </Router>
 
