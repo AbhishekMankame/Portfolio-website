@@ -1,10 +1,15 @@
-import React from 'react'
+import { Router, BrowserRoute as Router, Routes } from 'react-router-dom';
 
 const app = () => {
     return (
-        <div><h1 className="text-3xl font-bold underline">
-            Hello world!
-        </h1></div>
+        <main className="bg-slate-300/20">
+            <Router>
+                <Navigate></Navigate>
+
+            </Router>
+
+
+        </main>
     )
 }
 
